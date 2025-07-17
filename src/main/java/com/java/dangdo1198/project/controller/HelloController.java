@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/api/sayHello")
     public String greeting() {
+        System.out.println("dang van do");
         return "hello";
     }
 }
